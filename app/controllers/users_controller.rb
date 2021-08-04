@@ -24,6 +24,12 @@ class UsersController < ApplicationController
     @this_week_book = @books.created_this_week
     @last_week_book = @books.created_last_week
     
+    @two = @books.created_2days
+    @three = @books.created_3days
+    @four = @books.created_4days
+    @five = @books.created_5days
+    @six = @books.created_6days
+    
   end
 
 
