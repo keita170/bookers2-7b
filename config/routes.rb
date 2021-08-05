@@ -13,6 +13,7 @@ Rails.application.routes.draw do
     resources :relationships, only: [:create, :destroy]
     get 'followings' => 'relationships#followings'
     get 'followers' => 'relationships#followers'
+    get 'search' => 'users#search'
   end
 
   resources :books, only: [:show, :index, :edit, :create, :update] do
@@ -20,6 +21,8 @@ Rails.application.routes.draw do
     delete 'favorites' => 'favorites#destroy', as:'favorite'
     resources :comments, only: [:create, :destroy]
   end
+  
+  
   
   
 
