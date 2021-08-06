@@ -20,7 +20,7 @@
           </tr>
           <tr>
             <th>followers</th>
-            <th><%= link_to @user.follower_user.count, user_followers_path(@user) %></th>
+            <th><%= link_to @user.followed_user.count, user_followers_path(@user) %></th>
           </tr>
         </table>
         <%= link_to edit_user_path(@user), class:"btn btn-outline-secondary btn-block" do %>
@@ -58,7 +58,7 @@
                </th>
              <th><%= user.name %></th>
              <th><p>フォロー数:<%= user.following_user.count %></p></th>
-             <th><p>フォロワー数:<%= user.follower_user.count %></p></th>
+             <th><p>フォロワー数:<%= user.followed_user.count %></p></th>
              <th>
                <% if user == current_user %>
                <% else %>
