@@ -19,7 +19,7 @@
           </tr>
           <tr>
             <th>followers</th>
-            <th><%= link_to @user.followed_user.count, user_followers_path(@user) %></th>
+            <th><%= link_to @user.followed_id_user.count, user_followers_path(@user) %></th>
           </tr>
         </table>
         <% if @user == current_user %>
