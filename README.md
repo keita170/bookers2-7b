@@ -1,24 +1,13 @@
-# README
+# bookers7-9の応用課題a,b,dが入ってます
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* ここはbookers2の7b-9bの処理が入ってます
 
-Things you may want to cover:
+* 7bは投稿数の表示をさせる。今日と昨日。そして前日比も出す。同じく今週と先週の投稿数を表示させて、前週比を表示させる。
 
-* Ruby version
+* 8bは過去1週間の投稿数を1日1日表示させる。chart.jsを使って過去7日間の投稿をグラフ化する。
 
-* System dependencies
+* 9bはユーザーの詳細ページに指定した日付の投稿数を表示させる(非同期で)機能を追加する。
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* bookers2-6までで、フォローフォロワー機能、検索機能、非同期でのいいね、コメント機能を実装してます
 
 * ...
